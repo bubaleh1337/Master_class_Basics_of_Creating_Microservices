@@ -1,6 +1,3 @@
-using System.Windows.Input;
-using MediatR;
-
 namespace Api.CQRS;
 
 public interface ICommand : ICommand<Unit>
